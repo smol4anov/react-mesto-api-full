@@ -1,0 +1,11 @@
+.header__signup {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 424px) {
+  .header__signup {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}

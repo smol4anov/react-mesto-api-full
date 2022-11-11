@@ -1,0 +1,28 @@
+.sign-in__input {
+  border: 0;
+  border-bottom: 2px solid #ccc;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  background-color: #000;
+  margin: 0 0 30px;
+  padding: 0 0 10px;
+  box-sizing: border-box;
+  width: 358px;
+  height: 27px;
+}
+
+.sign-in__input:focus {
+  outline: none;
+}
+
+.sign-in__input::placeholder {
+  color: #ccc;
+}
+
+@media screen and (max-width: 424px) {
+  .sign-in__input {
+    max-width: 260px;
+  }
+}

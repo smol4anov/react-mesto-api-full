@@ -1,0 +1,16 @@
+.sign-in__input-error {
+  display: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #fee799;
+  width: 358px;
+}
+
+@media screen and (max-width: 424px) {
+  .sign-in__input-error {
+    max-width: 260px;
+    font-size: 10px;
+  line-height: 12px;
+  }
+}

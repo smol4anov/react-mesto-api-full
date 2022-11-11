@@ -1,0 +1,26 @@
+.page__wrapper {
+  max-width: 880px;
+  min-height: 100vh;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-top: 45px;
+  display: grid;
+  grid-template-rows: 74px 1fr 104px;
+  grid-template-columns: 1fr minmax(auto, 68.75vw) 1fr;
+  row-gap: 40px;
+}
+
+@media screen and (max-width: 1023px) {
+  .page__wrapper {
+    grid-template-columns: 1fr 78vw 1fr;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page__wrapper {
+    padding-top: 28px;
+    row-gap: 42px;
+    grid-template-rows: 56px 1fr 59px;
+    grid-template-columns: 1fr 88.125vw 1fr;
+  }
+}

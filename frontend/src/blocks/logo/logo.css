@@ -1,0 +1,13 @@
+.logo {
+  background: no-repeat center/100% url(../../images/Logo.svg);
+  display: inline-block;
+  min-width: 142px;
+  min-height: 33px;
+}
+
+@media screen and (max-width: 767px) {
+  .logo {
+    min-width: 104px;
+    min-height: 24px;
+  }
+}

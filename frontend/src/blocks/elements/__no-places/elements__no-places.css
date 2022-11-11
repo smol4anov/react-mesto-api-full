@@ -1,0 +1,29 @@
+.elements__no-places {
+  margin: 120px 0 0;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  color: #545454;
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 1279px) {
+  .elements__no-places {
+    margin-top: 80px;
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .elements__no-places {
+    margin-top: 60px;
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .elements__no-places {
+    font-size: 30px;
+  }
+}

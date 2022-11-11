@@ -1,0 +1,10 @@
+.sign-in__footer-link {
+  text-decoration: none;
+  transition: opacity .3s linear;
+  color: #fff;
+}
+
+.sign-in__footer-link:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}

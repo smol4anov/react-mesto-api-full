@@ -1,0 +1,5 @@
+.sign-in__input-error_active {
+  display: flex;
+  align-items: center;
+  min-height: 30px;
+}

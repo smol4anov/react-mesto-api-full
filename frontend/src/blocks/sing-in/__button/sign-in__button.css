@@ -1,0 +1,26 @@
+.sign-in__button {
+  height: 50px;
+  background: #fff;
+  border-radius: 2px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  border: 0;
+  transition: opacity .3s linear;  
+  margin-top: calc(30vh - 30px);
+  margin-bottom: 15px;
+}
+
+.sign-in__button:hover {
+  cursor: pointer;
+  opacity: 0.85;
+}
+
+@media screen and (max-width: 424px) {
+  .sign-in__button {
+    height: 46px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  line-height: 19px;
+  }
+}
