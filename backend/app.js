@@ -2,6 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cookieParser = require('cookie-parser');
 const { errors } = require('celebrate');
+require('dotenv').config();
 
 const routers = require('./routes');
 const { handleErrors } = require('./errors');

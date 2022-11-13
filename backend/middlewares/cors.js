@@ -1,7 +1,8 @@
 const allowedCors = [
   'https://praktikum.tk',
   'http://praktikum.tk',
-  'http://localhost:3000',
+  'http://mesto.smolchanov.nomoredomains.icu/',
+  'https://mesto.smolchanov.nomoredomains.icu/',
 ];
 
 const DEFAULT_ALLOWED_METHODS = 'GET, HEAD, PUT, PATCH, POST, DELETE';
